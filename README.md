@@ -1,4 +1,4 @@
-The main difference between this DATAPATH and those of the previously developed processors is the addition of two new sub-circuits:
+The main difference between this processors and those of the previously developed is the addition of two new sub-circuits:
 
 -FORWARDING UNIT
 
