@@ -7,3 +7,7 @@ The third sub-stage (EX) of the DATAPATH also remained the same, with the only a
 The fourth sub-stage (MEM) had no changes in structure compared to the first lab exercise. As before, the outputs were fed into 32-bit and 5-bit registers, forming the fourth pipeline stage (MEM/WB).
 
 As expected, all register outputs from each pipeline stage serve as inputs to the corresponding sub-stages.
+
+As for the CONTROL unit, things were much simpler due to the very limited number of instructions we had to implement based on the assignment's requirements. In other words, the core structure of the CONTROL unit remained the same as in the first lab exercise (Single-Cycle Processor), with the most noticeable difference being that we only had to support four instructions.
+
+As a result, many control signals were not necessary (Don't Care) and were instead assigned default values directly inside the DATAPATH. This significantly simplified the implementation of the CONTROL unit compared to the other two projects.
